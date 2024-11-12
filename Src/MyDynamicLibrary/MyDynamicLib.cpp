@@ -1,4 +1,4 @@
-#include "main.h"
+#include "MyDynamicLib.h"
 
 using namespace std;
 

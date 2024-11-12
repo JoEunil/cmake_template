@@ -4,19 +4,21 @@ Windows, macOS, Linux에서 C/C++ 프로젝트를 빌드하기 위한 CMake 템�
 dynamic library sample은 작업 중
 
 ## 디렉터리 구조  
-```cpp_template/  
+```
+cpp_template/  
 ├── Src/  
 │   ├── MyApp/  
-│   │   ├── main.h  
 │   │   ├── main.cpp  
+│   │   ├── pch.h  
+│   │   ├── pch.cpp
 │   │   └── CMakeLists.txt  
 │   ├──MyDynamicLibrary/  
-│   │   ├── main.h  
-│   │   ├── main.cpp  
+│   │   ├── MyDanamicLib.h  
+│   │   ├── MyDynamicLib.cpp  
 │   │   └── CMakeLists.txt  
 │   ├──MyStaticLibrary/  
-│   │   ├── main.h  
-│   │   ├── main.cpp  
+│   │   ├── MyLib.h  
+│   │   ├── MyLib.cpp  
 │   │   └── CMakeLists.txt  
 │   └── CMakeLists.txt  
 ├── Build/  
