@@ -2,6 +2,6 @@
 
 int test_func()
 {
-    std::cout << "test function" << std::endl;
+    std::cout << "Lib-modify" << std::endl;
     return 1;
 }

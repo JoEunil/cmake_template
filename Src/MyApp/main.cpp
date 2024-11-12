@@ -1,12 +1,12 @@
 #include "pch.h"
 #include "../MyStaticLibrary/MyLib.h"
+#include "../MyDynamicLibrary/MyDynamicLib.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    int n = test_func();
-    cout << n << endl;
+    test_func();
+    test_func2();
     return 0;
 }

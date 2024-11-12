@@ -1,9 +1,8 @@
 #include "MyDynamicLib.h"
 
-using namespace std;
 
-int main()
+int test_func2()
 {
-    cout << "Dll" << endl;
-    return 0;
+    std::cout << "Dll-modify" << std::endl;
+    return 2;
 }
